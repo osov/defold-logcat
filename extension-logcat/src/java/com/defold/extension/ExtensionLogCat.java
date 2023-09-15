@@ -32,7 +32,7 @@ public class ExtensionLogCat {
     });
   }
 
-  public void ReportEvent(final String event, final String msg) {
+  public void ReportEvent(final String msg, final String event) {
   	activity.runOnUiThread(new Runnable() {
       @Override
       public void run() {
